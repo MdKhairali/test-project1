@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+body{
+    background-color: rgb(144, 123, 236);
+}
+.top1{
+    background-color: rgba(35, 5, 172, 0.856);
+    padding:17px;
+    color: #f8f4f4;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+}
+
+.top2{
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: auto;
+    width: 70%;
+    padding-top: 40px;
+    text-align: center;
+}
+p{
+    font-size: 22px;
+    text-align: center;
+    padding-top: 05px;
+    padding-bottom:-30px;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 40vh;
+
+}
+.container{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px 0px 20px;
+    margin: top 60px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+
+}
+.input{
+    height: 45px;
+    width: 87%;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    color:#fff;
+    padding:0 0 0 45px;
+    background: #ffffff67;
+    font-size: medium;
+}
+i{
+    position: relative;
+    top:-33px;
+    left:17px;
+    color#fff;
+    
+}
+::-webkit-input-placeholder{
+    color:#fdf9f9;
+}
+.submit{
+    border:none;
+    border-radius: 10px;
+    font-size: 17px;
+    height: 45px;
+    outline: none;
+    width: 96.5%;
+    background:rgba(53, 120, 221, 0.7);
+    cursor:pointer;
+    transition: 3s;
+    font-family: Verdana;
+    color:#fff;
+    font-weight: 900;
+    box-shadow: 0px 2px 0px 1px #2226ec;
+
+}
+.p3{
+    font-size: medium;
+    font-family: Verdana;
+}
+.submit:hover{
+    box-shadow: 1px 0px 2px 0px rgba(37, 12, 161, 0.2);
+
+}
+.bio{
+    width:70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    width:40%;
+    text-align: center;
+    padding:10px;
+}
+.left p{
+    width:90%;
+    margin:auto;
+    font-size: 17px;
+    text-align: center;
+}
+
+.right{
+    width:45%;
+    padding: 05px 5px 35px;
+    
+}
+
+.right h2{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.right p{
+    font-size: 22px;
+    text-align: left;
+
+}
+.right button{
+    width: 100%;
+    background-color: #5255f0;
+    height: 60px;
+    color:#fff;
+    font-style:verdana;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 5px;
+    border:none;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 0px 1px #2226ec;
+
+}
+footer{
+    padding: 150px 0px 50px 0px;
+    width:55%;
+    margin: auto;
+    text-align: center;
+    color:rgb(230, 229, 235);
+    
+}
+.p2{
+    font-size: small;
+}
